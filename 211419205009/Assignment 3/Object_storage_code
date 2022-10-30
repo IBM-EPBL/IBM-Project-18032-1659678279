@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width:33.33%;
+  padding: 7px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Hospital</h1>
+</center>
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://hospital104.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos1.webp" alt="hos" style=width:"200" height="170">
+  </div>
+  <div class="column">
+    <img src="https://hospital104.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos2.webp" alt="hosp" style=width:"200" height="170">
+  </div>
+  <div class="column">
+    <img src="https://hospital104.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos3.webp" alt="hospi" style=width:"200" height="170">
+  </div>
+  <div class="column">
+    <img src="https://hospital104.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos4.webp" alt="hospit" style=width:"200" height="170">
+  </div>
+  <div class="column">
+    <img src="https://hospital104.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos5.webp" alt="hospita" style=width:"200" height="170">
+  </div>
+</div>
+
+</body>
+</html>
