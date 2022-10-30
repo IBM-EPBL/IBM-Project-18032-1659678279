@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://hospital105.s3.jp-tok.cloud-object-storage.appdomain.cloud/img1.webp" alt="Hospital1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hospital105.s3.jp-tok.cloud-object-storage.appdomain.cloud/hospital2.webp" alt="Hospital2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hospital105.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos3.webp" alt="Hospital3" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hospital105.s3.jp-tok.cloud-object-storage.appdomain.cloud/hospital4%20(1).webp" alt="Hospital4" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hospital105.s3.jp-tok.cloud-object-storage.appdomain.cloud/hospital5.webp" alt="Hospital5" style="width:100%">
+  </div>
+</div>
+
+</body>
+
+</html>
