@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body bgcolor ="pink">
+<center>
+<h2>Hospital Template</h2>
+</center>
+
+<div class="row">
+  <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/h9.webp" alt="hospital 1" style="width:100%">
+  </div>
+ <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/H12.jpg" alt="hospital 5" style="width:97%">
+</div>
+  <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/H11.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/H13.jpg" alt="hospital 4" style="width:100%">
+  </div>
+ <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/g1.jpg" alt="hospital 2" style="width:100%">
+  </div>
+ <div class="column">
+    <img src="https://cloudapp.s3.jp-tok.cloud-object-storage.appdomain.cloud/h141.webp" alt="hospital 2" style="width:100%">
+  </div>
+
+</body>
+</html>
