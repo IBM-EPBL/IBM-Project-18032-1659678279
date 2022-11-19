@@ -1,0 +1,199 @@
+.sign {
+    border-radius: 1rem;
+    background-color: rgb(191, 191, 191);
+    background-image: url('gr1.jpg');
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-top: 5%;
+    margin-left: 55%;
+    border: 3px solid black;
+}
+.text{
+    padding-left: 1025px;
+    text-align: center;
+}
+.fortitle {
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+}
+
+.forp {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textinformleft {
+    text-align: left;
+    padding-left: -1%;
+    padding-right: 3%;
+
+    width: 50%;
+    border-radius: 1rem;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textinformright {
+    width: 50%;
+    padding-right: 10px;
+    border-radius: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textinformright2 {
+    width: 100%;
+    text-align: center;
+    padding-right: 10px;
+    border-radius: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    border-radius: 10 px;
+    color: black;
+    background-color: white;
+    padding-left: 15px;
+    width: 90px;
+    
+}
+
+input:focus {
+    border-color: yellow;
+}
+
+.forform {
+    display: flex;
+    padding: 15px;
+    border-radius: 1rem;
+}
+
+.forpadding {
+    padding-top: 1%;
+    padding-left: 55%;
+    padding-right: 2%;
+}
+
+
+body {
+    background-image: url('x7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    /* background-image: url('F:\Own\IBM project\Sample2\static\css\bg.png'); */
+}
+
+.forbutton {
+    background-color: rgb(16, 9, 9);
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(17, 23, 23);
+    box-shadow: white;
+    cursor: pointer;
+}
+
+
+/* for dashboard */
+
+.fordashboardtop {
+    border-radius: 1rem;
+    display: flex;
+    background-color:#FFC0CB;
+}
+
+.fordashboardtopelements1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    font-size: large;
+    padding: 2%;
+}
+
+.fordashboardtopelements2 {
+    width: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.fordashboarddetails {
+    padding: 2%;
+    border-radius: 1rem;
+    
+}
+
+.outerofdashdetails {
+    /* padding-top: 2%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('hx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fortable {
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pad {
+    padding: 7px;
+}
+
+.forbutton2 {
+    background-color: rgb(62, 124, 139);
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    width: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foraddbutton{
+    /* width: 30%; */
+    background-color: rgb(166, 227, 230);
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.collapsible {
+    background-color: rgb(128, 36, 82);
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: #777; */
+    /* color: white; */
+    cursor: pointer;
+    /* padding: 18px; */
+    /* width: 100%; */
+    /* border: none;
+    text-align: left; */
+    /* outline: none;
+    font-size: 15px; */
+}
+
+.collapsible:hover {
+    background-color: white;
+}
+
+.content {
+    /* padding: 0 18px; */
+    display: none;
+    border-radius: 1rem;
+    background-color: #FFC0CB;
+    width: 50%;
+    /* overflow: hidden; */
+    /* background-color: #f1f1f1; */
+}
